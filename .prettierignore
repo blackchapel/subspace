@@ -1,0 +1,13 @@
+.dockerignore
+.env
+.env-example
+.gitignore
+.prettier.js
+docker-compose.yml
+Dockerfile
+generate.sh
+package.json
+package-lock.json
+tsconfig.json
+node_modules/
+dist/
