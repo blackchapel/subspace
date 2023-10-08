@@ -22,8 +22,6 @@ class BlogController {
 
             const statistics: any = this.statistics(blogs);
 
-            log.info('not cached');
-
             // API response
             res.status(200).json({
                 message: 'Blogs Statistics',
